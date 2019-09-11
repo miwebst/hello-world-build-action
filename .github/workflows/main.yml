@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: miwebst/basic-deploy-task@v1
+      uses: miwebst/basic-deploy-task@master
       with:
         who-to-greet: 'Mitch'
     # Use the output from the `hello` step
