@@ -1,4 +1,4 @@
-﻿# Hello world docker action 5
+﻿# Hello world docker action 6
 
 This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
 
