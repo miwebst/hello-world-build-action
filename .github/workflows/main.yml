@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Azure Pages
     steps:
+    - uses: actions/checkout@v1
     - name: Build And Deploy
       id: hello
-      uses: actions/checkout@v1
       uses: miwebst/basic-deploy-task@master
       with:
         app-location: 'app'
